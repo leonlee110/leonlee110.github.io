@@ -1,7 +1,7 @@
 ---
-title: Study BenchIP, a benchmark for AI
+title: Study BenchIP, a Benchmark for AI Hardware
 layout: page
-categories: AI
+categories: HardwareArchitecture
 tags: benchmark
 ---
 

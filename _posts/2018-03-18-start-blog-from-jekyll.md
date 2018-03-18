@@ -1,7 +1,7 @@
 ---
 title: 利用jekyll搭建简单的Blog
 layout: page
-categories: jekyll
+categories: Other
 tags: jekyll
 ---
 
