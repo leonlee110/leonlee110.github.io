@@ -2,7 +2,7 @@
 title: 利用jekyll搭建简单的Blog
 layout: page
 categories: Other
-tags: jekyll
+tags: blog
 ---
 
 爱分享的人总是喜欢记录下自己的一些想法，一是便于自己以后总结抽象，二也是为了给遇到相同问题或者考虑相同事情的人一些建议。

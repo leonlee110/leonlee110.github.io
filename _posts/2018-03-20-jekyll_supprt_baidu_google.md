@@ -2,7 +2,7 @@
 title: 网站增加百度&Google支持
 layout: page
 categories: Other
-tags: jekyll
+tags: blog
 ---
 
 增加一些辅助功能，能让我们的博客更有价值。比如，
