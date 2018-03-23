@@ -2,6 +2,7 @@
 Web page please visit leonlee110.github.io
 
 ## Golang
+[Go语言快速入门（一）：基础篇](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-21-introduction-to-go-1.md)
 
 ## Python
 
@@ -16,3 +17,5 @@ Web page please visit leonlee110.github.io
 
 ## Other
 [利用jekyll搭建简单的Blog](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-18-start-blog-from-jekyll.md)
+
+[网站增加百度&Google支持](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-20-jekyll_supprt_baidu_google.md)
