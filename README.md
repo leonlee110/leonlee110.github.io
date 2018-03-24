@@ -3,6 +3,7 @@ Web page please visit leonlee110.github.io
 
 ## Golang
 [Go语言快速入门（一）：基础篇](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-21-introduction-to-go-1.md)
+[Go语言快速入门（二）：面向对象](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-23-introduction-to-go-2.md)
 
 ## Python
 
