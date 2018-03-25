@@ -11,6 +11,8 @@ tags: blog
 
 因此本文介绍怎样在博客中增加这些支持。
 
+<!-- excerpt -->
+
 ## 1. Google搜录
 ### 1.1 添加Google收录
 Google的搜录比较简单，在其console网站上提交相关信息，即可实现比较好的搜录。在这个网站中添加上博客地址：https://www.google.com/webmasters/tools/home?hl=zh-CN

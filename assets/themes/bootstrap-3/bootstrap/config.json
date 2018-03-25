@@ -374,7 +374,7 @@
     "@abbr-border-color": "@gray-light",
     "@headings-small-color": "@gray-light",
     "@blockquote-small-color": "@gray-light",
-    "@blockquote-font-size": "(@font-size-base * 1.25)",
+    "@blockquote-font-size": "(@font-size-base * 1)",
     "@blockquote-border-color": "@gray-lighter",
     "@page-header-border-color": "@gray-lighter",
     "@dl-horizontal-offset": "@component-offset-horizontal",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=bf03be9e40be0641c72a46270c445705"
+  "customizerUrl": "<none>"
 }

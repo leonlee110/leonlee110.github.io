@@ -5,6 +5,10 @@ categories: HardwareArchitecture
 tags: cpu
 ---
 
+一条指令执行的过程。
+
+<!-- excerpt -->
+
 ## 1. Fetch Instruction
 ![fetch_instruction](/assets/cpu/fetch_instruction.png){:class="img-responsive"}
 常见性能指标：

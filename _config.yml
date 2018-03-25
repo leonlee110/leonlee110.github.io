@@ -141,3 +141,5 @@ JB :
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+
+excerpt_separator: "<!-- excerpt -->"

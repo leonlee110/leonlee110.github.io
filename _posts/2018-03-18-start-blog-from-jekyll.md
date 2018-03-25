@@ -11,6 +11,8 @@ tags: blog
 
 本Blog也是利用Github的Page来搭建的。
 
+<!-- excerpt -->
+
 ## 1. 申请Github Page
 直接新建一个repository，其中Repository name就是将来默认访问博客的网址，比如下图中的leonlee11.github.io，在创建博客成功后，可以直接通过该链接访问。
 ![applypage](/assets/jekyll/applypage.png){:class="img-responsive"}

@@ -10,6 +10,9 @@ tags: [Go, Kubernets]
 为什么要并发编程，这就不多说了。多进程，多线程，协程，异步IO，都是为了解决程序的运行效率，为了充分利用现在体系结构中的并行特性。关于硬件上的并行，在文章[浅谈硬件体系结构中的并行](https://leonlee110.github.io/go/2018/03/24/parallel-in-hardware-architecture)中再介绍介绍（当前还未完成）。
 
 Go实现并发非常简单，在函数调用起来使用go关键字即可。
+
+<!-- excerpt -->
+
 ```
 go a()
 ```

@@ -15,6 +15,8 @@ Benchmark对于评估不同系统优劣，以及系统的优化（包括软件�
 
 BenchIP被设计成可用来评估不同的平台，CPU，GPUs，和其他加速器，这也是我们自己定义或者借鉴benchmark需要考虑的问题。
 
+<!-- excerpt -->
+
 ## 1. 引言
 ### 1.1 以前的Benchmark
 有两种Benchmark存在：collective benchmark（很多应用的集合）、personalized benchmark（评测不同的智能芯片）。

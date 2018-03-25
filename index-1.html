@@ -1,0 +1,14 @@
+---
+layout: default
+header : Post Archive
+group: navigation
+---
+{% for post in site.posts %}
+   <h2>{{ post.title }}<h2>
+   <font color="black">发布于 {{ post.date }}</font>
+      {{ post.excerpt }} ...
+   {% unless site.tags == empty %}
+      {% assign tags_list = post.tags %}
+      {% include JB/tags_list %}
+   {% endunless %}
+{% endfor %}
