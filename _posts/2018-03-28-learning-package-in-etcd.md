@@ -1,0 +1,8 @@
+- runtime
+- log
+- capnslog
+- cobra：
+- google.golang.org/grpc：Go下的rpc应用
+- github.com/coreos/go-systemd：Go环境下利用systemd
+- embed/config.go：etcd提供的专用的配置接口
+- pkg/fileutil：etcd封装的file相关操作接口
