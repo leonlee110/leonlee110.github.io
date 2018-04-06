@@ -3,16 +3,12 @@ layout: default
 header : Post Archive
 group: navigation
 ---
-{% include JB/setup %}
-
 {% for post in site.posts %}
-   <a href="{{ BASE_PATH }}{{ post.url }}" style="font-size:22px">{{ post.title }}</a> &emsp;发布于 {{ post.date | date: "%B %e, %Y" }}
-   <blockquote>
+   <h2>{{ post.title }}<h2>
+   <font color="black">发布于 {{ post.date }}</font>
       {{ post.excerpt }} ...
-   </blockquote>
    {% unless site.tags == empty %}
       {% assign tags_list = post.tags %}
-      {% include JB/tags_list_index %}
+      {% include JB/tags_list %}
    {% endunless %}
-   <hr>
 {% endfor %}
