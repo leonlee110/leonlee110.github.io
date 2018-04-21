@@ -18,7 +18,7 @@ cache又成为缓存，主要是用来缓存数据。但是为什么需要缓存
 ## 2. cache的外部层次
 
 在现代计算机体系结构中，一般使用三层cache来缓存数据。其中离core最近的L1 cache，分为缓存指令的Instruction Cache和缓存数据的Data Cache，这一级cache是每个物理core都有自己专有的。更大，但是延迟更高的L2 cache，则是指令和数据共存的，同时也是每个物理core都专有。最大的L3 cache则是CPU内的每个core共享的。分成多级也如前面介绍，从性能和成本折中的角度考虑。下图为
-![cache_latency](/assets/cache/cache_latency.png){:class="img-responsive"}
+![cache_latency](/assets/cache/cache_latency.png){:class="img-responsive center-block" width="600px}
 
 通过lscpu即可了解系统的cache结构，如下图所示：
 ```
@@ -62,7 +62,7 @@ cache被组织成cache line来访问，并且cache line的大小一般和数据�
 
 前面也介绍cache相比内存容量来说要小得多，那怎么合理利用这些有限的cache缓存更多的数据呢？在软件开发中，遇到这种问题一个通用的解决方案就是hash，通过hash将内存地址对应到其可以缓存的cache地址，同时借助某种算法来解决冲突问题。cache line的进一步组织结构类似。cache line被组织成set，每个set具有类似的hash特征，然后set中又分成多个way，来缓存不同的数据，类似于hash中数组来解决冲突。另外通过tag arry的辅助来确定同一set中不同的数据对应在哪一way的cache line中。
 如下图：
-![cache_arctech](/assets/cache/cache_architec.png){:class="img-responsive"}
+![cache_arctech](/assets/cache/cache_architec.png){:class="img-responsive center-block" width="600px}
 
 根据way数的不同，cache被组织成不同的模式：“Direct mapped cache"（N=1），"N-way set associative cache"，"Fully associative cache"（SETNUM=1）。经过简单的立即即可以发现，N越小，在统一set中遍历比较各tag的时间越少，定位到具体cache line越快，但是由于没有“冲突解决”的机制，cache miss的几率越大；而N越大，在统一set中定位的时间则会越长，但是冲突的几率越小。所以一般选择的是一种折中方案。在我的系统中是8 Ways。
 
@@ -94,7 +94,7 @@ cache被组织成cache line来访问，并且cache line的大小一般和数据�
 
 ## 5. PMU
 PMU是CPU提供的统计硬件性能的组件，通过对各种event的统计，从而计算出各硬件操作的性能指标。在2.6.31以上的内核中增加了perf_event系统来获取这些性能指标信息，或者称之为微架构信息。一个简单的结构图如下，
-![perf_architec](/assets/cache/perf_architec.png){:class="img-responsive"}
+![perf_architec](/assets/cache/perf_architec.png){:class="img-responsive center-block" width="600px}
 
 如图所示，Linux已经在内核中完成了相关支持，对于我们来说，使用应用层的perf工具即能利用PMU的功能，完成相关数据的抓去与分析。常见的perf命令以及功能有：
 ```

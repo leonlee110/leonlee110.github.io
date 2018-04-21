@@ -1,0 +1,6 @@
+--2018-04-20 16:59:31--  https://github-production-release-asset-2e65be.s3.amazonaws.com/7481569/9aed02d4-43fa-11e8-82ee-0f890ace7c43?X-Amz-Algorithm=AWS4-HMAC-SHA256
+正在解析主机 github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.165.43
+正在连接 github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.165.43|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 400 Bad Request
+2018-04-20 16:59:34 错误 400：Bad Request。
+
