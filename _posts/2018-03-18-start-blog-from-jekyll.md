@@ -15,7 +15,7 @@ tags: blog
 
 ## 1. 申请Github Page
 直接新建一个repository，其中Repository name就是将来默认访问博客的网址，比如下图中的leonlee11.github.io，在创建博客成功后，可以直接通过该链接访问。
-![applypage](/assets/jekyll/applypage.png){:class="img-responsive"}
+![applypage](/assets/jekyll/applypage.png){:class="img-responsive center-block" width="600px"}
 
 
 ## 2. 安装jekyll环境
