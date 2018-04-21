@@ -10,7 +10,7 @@ tags: cpu
 <!-- excerpt -->
 
 ## 1. Fetch Instruction
-![fetch_instruction](/assets/cpu/fetch_instruction.png){:class="img-responsive"}
+![fetch_instruction](/assets/cpu/fetch_instruction.png){:class="img-responsive center-block" width="600px"}
 常见性能指标：
 ```
 - L1I cache miss：在L1I cache中找不到指令，需要从内存或者硬盘中读取新的指令
@@ -20,7 +20,7 @@ tags: cpu
 ```
 
 ## 2. Decode
-![decode_pipeline](/assets/cpu/decode_pipeline.png){:class="img-responsive"}
+![decode_pipeline](/assets/cpu/decode_pipeline.png){:class="img-responsive center-block" width="600px"}
 
 
 ## 3. Allocation
@@ -39,7 +39,7 @@ tags: cpu
 ```
 
 ## 5. execute
-![execute_pipeline](/assets/cpu/execute_pipeline.png){:class="img-responsive"}
+![execute_pipeline](/assets/cpu/execute_pipeline.png){:class="img-responsive center-block" width="600px"}
 ```
 - ALC：整形和逻辑预算单元
 - AGU：地址转换预算单元

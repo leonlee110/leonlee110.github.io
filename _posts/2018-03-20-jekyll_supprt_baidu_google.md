@@ -18,7 +18,7 @@ tags: blog
 Google的搜录比较简单，在其console网站上提交相关信息，即可实现比较好的搜录。在这个网站中添加上博客地址：https://www.google.com/webmasters/tools/home?hl=zh-CN
 
 然后在这个页面手动触发抓取操作：
-![googlesoulu](/assets/jekyll/google_soulu.png){:class="img-responsive"}
+![googlesoulu](/assets/jekyll/google_soulu.png){:class="img-responsive center-block" width="600px"}
 
 过一会后，就可以在google中直接搜索"leonlee110.github.io"了，它会显示你的网站主页。
 
@@ -39,7 +39,7 @@ gems: ["jekyll-sitemap"]
 
 ### 1.3 提交sitemap
 在Google如下页面提交sitemap文件（比如https://leonlee110.github.io/sitemap.xml）即可。
-![googlesitemap](/assets/jekyll/google_sitemap.png){:class="img-responsive"}
+![googlesitemap](/assets/jekyll/google_sitemap.png){:class="img-responsive center-block" width="600px"}
 
 ## 2. Google统计
 直接使用jekyll-bootstrap模版的好处就是很多功能已经原生很好支持了，所以这也是前面文章推荐直接用jekyll-bootstrap的原因。
@@ -47,7 +47,7 @@ gems: ["jekyll-sitemap"]
 为了支持Google统计网站的一些访问信息，首先需要先注册账号获取相关的trace id。进行该页面操作即可：https://analytics.google.com/analytics。
 
 注册成功后会在如下页面（管理->媒体资源设置）获取对应的跟踪id：
-![googleanalytics](/assets/jekyll/google_analytics.png){:class="img-responsive"}
+![googleanalytics](/assets/jekyll/google_analytics.png){:class="img-responsive center-block" width="600px"}
 
 然后将_config.yml中如下代码修改成上述ID：
 ```
@@ -62,7 +62,7 @@ analytics :
 
 ## 3. 百度收录
 其实本来百度的收录和上面Google的收录方法是一样的，添加博客地址，上传sitemap，但是触发抓取的时候发现失败了，点击失败原因发现是拒绝的。
-![baiduerror](/assets/jekyll/baiduerror.png){:class="img-responsive"}
+![baiduerror](/assets/jekyll/baiduerror.png){:class="img-responsive center-block" width="600px"}
 
 网上搜索发现是百度不能抓取github page，但是可以通过一些geek的方式解决。有需要的小伙伴，参考这个知乎的内容吧：https://www.zhihu.com/question/30898326。
 

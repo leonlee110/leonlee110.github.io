@@ -30,7 +30,7 @@ type config struct {
 完成解析后，则调用startEtcd()和startProxy()分别启动etcd主逻辑，以及proxy。
 
 startEtcd调用embed/etcd.go中的StartEtcd，其主要流程是：
-!["etcd_server_start"](/assets/etcd/etcd_server_start.png){:class="img-responsive center-block" width="600px“}
+!["etcd_server_start"](/assets/etcd/etcd_server_start.png){:class="img-responsive center-block" width="600px"}
 至此etcd就启动了，其中有两个非常重要的功能，
 - startPeerListeners()，创建peerListeners
 - startClientListeners()，创建clientListeners

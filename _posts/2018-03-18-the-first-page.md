@@ -34,7 +34,7 @@ Fathon，由8个典型的深度学习workload组成，但有如下不足：
 - 不能评估细粒度的性能和效率，这对智能芯片特别是定制化硬件非常重要
 
 上面提到的都是一些collective benchmark，而一些personalized benchmark则更缺乏代表性和多样性。
-![numsofnn](/assets/benchip/number_of_nn.png){:class="img-responsive"}
+![numsofnn](/assets/benchip/number_of_nn.png){:class="img-responsive center-block" width="600px"}
 
 左图说明了传统的计算机架构领域根本没有覆盖足够的神经网络模型，右图说明了在传统计算机架构领域有30%~50%的benchmark在AI领域不可用。
 
@@ -72,10 +72,10 @@ Benchmark的设计需要从两个视角考虑：
 - 有不同的计算、访存、控制操作比例
 - 对未来设计有很大影响（是显著影响性能的操作）
 
-![benchmarks](/assets/benchip/benchmarks_in_benchip.png){:class="img-responsive"}
+![benchmarks](/assets/benchip/benchmarks_in_benchip.png){:class="img-responsive center-block" width="600px"}
 
 同时通过论文等手段，确定各种layer被网络使用的频率，
-![layers](/assets/benchip/stastics_of_layers.png){:class="img-responsive"}
+![layers](/assets/benchip/stastics_of_layers.png){:class="img-responsive center-block" width="600px"}
 
 
 ### 2.2 Macrobenchmark
@@ -102,13 +102,13 @@ Macrobenchmark就是从实际的应用中抽取出workload，SPECCPU、PARSEC等
 - 利用聚类的方法，看不同的microbenchmark是不是聚类都很远
 - 利用heatmap来看，各个case间是不是关联很小
 
-![heatmap](/assets/benchip/heatmap_of_macrobenchmark.png){:class="img-responsive"}
+![heatmap](/assets/benchip/heatmap_of_macrobenchmark.png){:class="img-responsive center-block" width="600px"}
 
 上面方法中用的特征主要分位三类，memory，computation，control。
-![microcase](/assets/benchip/microbenchmarks_case.png){:class="img-responsive"}
+![microcase](/assets/benchip/microbenchmarks_case.png){:class="img-responsive center-block" width="600px"}
 
 对benchmark的分析分为两个纬度：inter-layer和intra-layer。其中inter-layer也就是case间的，就是上面分析的。而intra-layer则是评估每个case本身，用的是上图中列的特征，以及相应的7个配置来评估的。
-![kiviatchart](/assets/benchip/kiviat_chart_of_microbenchmarks.png){:class="img-responsive"}
+![kiviatchart](/assets/benchip/kiviat_chart_of_microbenchmarks.png){:class="img-responsive center-block" width="600px"}
 
 一些结论：
 - 大多数配置的reuse distance都小于10，因此本地的内存可以设计成10*element_size，这样可以减少off-chip访存
@@ -122,7 +122,7 @@ Macrobenchmark就是从实际的应用中抽取出workload，SPECCPU、PARSEC等
 
 ## 3. Benchmarking Methodology
 主要框架如下图：
-![framework](/assets/benchip/overall_framework_of_methodology.png){:class="img-responsive"}
+![framework](/assets/benchip/overall_framework_of_methodology.png){:class="img-responsive center-block" width="600px"}
 
 Benchmark Specification，需要为caffe输入配置相关的信息，主要包括：
 - 配置文件，描述网络架构，每个layer的参数，各层layer之间的连接，caffe支持的.prototxt

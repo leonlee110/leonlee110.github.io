@@ -11,6 +11,7 @@ Web page please visit leonlee110.github.io
 ## Python
 
 ## Kubernetes
+[etcd源码学习（一）：启动流程](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-31-learning-etcd-by-code-1.md)
 
 ## LinuxKernel
 
@@ -31,3 +32,5 @@ Web page please visit leonlee110.github.io
 [利用jekyll搭建简单的Blog](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-18-start-blog-from-jekyll.md)
 
 [网站增加百度&Google支持](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-20-jekyll_supprt_baidu_google.md)
+
+[使用opengrok高效率阅读源码](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-04-20-install-opengrok-env.md)
