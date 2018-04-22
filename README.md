@@ -26,6 +26,8 @@ Web page please visit leonlee110.github.io
 
 [浅谈硬件体系结构中的并行](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-03-24-parallel-in-hardware-architecture.md)
 
+[Domain Specific Architecture: Introduction](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-04-22-study-dsa-1.md)
+
 ## DeepLearning
 
 ## Other
