@@ -28,6 +28,8 @@ Web page please visit leonlee110.github.io
 
 [Domain Specific Architecture: Introduction](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-04-22-study-dsa-1.md)
 
+[Domain Specific Architecture: TPU](https://github.com/leonlee110/leonlee110.github.io/blob/master/_posts/2018-04-22-study-dsa-2.md)
+
 ## DeepLearning
 
 ## Other
