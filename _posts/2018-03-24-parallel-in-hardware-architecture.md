@@ -5,6 +5,12 @@ categories: HardwareArchitecture
 tags: [Parallel, Multi-core, Multi-queue]
 ---
 
-待完成
+## 1. 指令并行
+
+## 2. 数据并行
+
+## 3. 线程并行
+
+## 4. Warehouse-Scale
 
 <!-- excerpt -->
